@@ -39,4 +39,4 @@ exclude:
 gems:
   - jekyll-feed
   - jekyll-sitemap
-  -jekyll-seo-tag
+  - jekyll-seo-tag
