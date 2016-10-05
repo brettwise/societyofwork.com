@@ -32,12 +32,16 @@ a {
 h1, h2, h3, h4, h5, h6 {
   font-family: $base-heading-font-family;
   margin: 0;
+  text-transform: uppercase;
 }
 h1, .fs-1 {
+  font-family: $base-font-family;
+  letter-spacing: 1px;
   @include font-size($base-h1-font-size);
   @include line-height($base-h1-line-height);
 }
 h2, .fs-2 {
+  font-family: $base-font-family;
   @include font-size($base-h2-font-size);
   @include line-height($base-h2-line-height);
 }
@@ -142,3 +146,5 @@ hr, .hr {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+// Custom Project Styles

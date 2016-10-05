@@ -35,5 +35,5 @@ progress { vertical-align: baseline; }
 [hidden], template { display: none; }
 
 // Images
-img { border-style: none; }
+img { border-style: none; width: 100%;}
 svg:not(:root) { overflow: hidden; }

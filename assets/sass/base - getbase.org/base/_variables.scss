@@ -4,21 +4,21 @@
 
 // Global Typography
 $base-background-color:                         #fff !default;
-$base-font-family:                              "courier-prime", monospace !default;
+$base-font-family:                              "roboto-condensed", sans-serif !default;
 $base-font-size:                                16 !default;
 $base-line-height:                              22 !default;
 $base-font-weight:                              400 !default;
 $base-font-color:                               #000 !default;
-$base-link-color:                               #000 !default;
-$base-link-hover-color:                         #000 !default;
+$base-link-color:                               $green !default;
+$base-link-hover-color:                         darken($green, 16%) !default;
 
 
 // Headings
-$base-heading-font-family:                      "roboto-condensed", sans-serif !default;
+$base-heading-font-family:                      "courier-prime", monospace !default;
 $base-h1-font-size:                             32 !default;
 $base-h1-line-height:                           38 !default;
 $base-h1-font-weight:                           700 !default;
-$base-h1-color:                                 #000 !default;
+$base-h1-color:                                 $green !default;
 $base-h2-font-size:                             26 !default;
 $base-h2-line-height:                           32 !default;
 $base-h2-font-weight:                           700 !default;
@@ -67,13 +67,13 @@ $base-select-box-height:                        36px;
 $container:                                     100% !default;
 $container-m:                                   720px !default;
 $container-l:                                   960px !default;
-$container-xl:                                  1120px !default;
+$container-xl:                                  1092px !default;
 
 // Grid Gutters
 $grid-gutter:                                   15px !default;
 $grid-gutter-m:                                 15px !default;
 $grid-gutter-l:                                 15px !default;
-$grid-gutter-xl:                                15px !default;
+$grid-gutter-xl:                                44px !default;
 
 // Responsive Breakpoints
 $breakpoint-m:                                  ($container-m + 20) !default;
